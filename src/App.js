@@ -1,11 +1,11 @@
 import React from 'react';
-import Profile from './containers/Profile.js';
+import ProfilePage from './containers/ProfilePage.js';
 
 function App() {
   return (
     <div>
       "Im on the page in app"
-      <Profile/>    
+      <ProfilePage/>    
     </div>
   );
 }
