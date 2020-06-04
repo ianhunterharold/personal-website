@@ -15,6 +15,7 @@ class ProfilePage extends Component{
     <Grid.Row centered>
       <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded='horizonally'>
         <Segment>
+          power statement
         <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
         </Segment>
 
@@ -42,9 +43,9 @@ class ProfilePage extends Component{
       </Grid.Column>
     
       <Grid.Column color={'black'} key={'black'} padded='vertically'>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src='https://i.imgur.com/sbGJcdW.jpg' />
+      
+      
       </Grid.Column>
     </Grid.Row>
 
