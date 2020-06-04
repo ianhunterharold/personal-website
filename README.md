@@ -2,8 +2,8 @@
 
 [WIP]
 
--``npm install ``
--``npm install node-sass -S``
--`` npm start``
--``npm semantic-ui-react``
+### ``npm install ``
+### ``npm install node-sass -S``
+### `` npm start``
+### ``npm i semantic-ui-react``
 
