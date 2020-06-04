@@ -1,10 +1,10 @@
 import React from 'react';
 import ProfilePage from './containers/ProfilePage.js';
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   return (
     <div>
-      "Im on the page in app"
       <ProfilePage/>    
     </div>
   );
