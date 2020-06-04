@@ -2,6 +2,7 @@
 
 [WIP]
 ### ``npm i semantic-ui-react``
+### ``npm install semantic-ui-css``
 ### ``npm install ``
 ### `` npm start``
 
