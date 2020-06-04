@@ -1,11 +1,11 @@
 import React from 'react';
 import { Component } from 'react';
-import '../style/mainStyle.scss';
+import '../style/mainStyle.css'
 
 class Main extends Component{
 render(){
   return (
-    <div className="main-container">
+    <div>
     "We are in the Main container"
     </div>
   )

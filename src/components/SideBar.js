@@ -1,11 +1,11 @@
 import React from 'react';
-import '../style/sidebarStyle.scss'
+
 
 
 const SideBar = () => {
 
   return (
-    <div className='side-bar-component'>
+    <div>
     "Inside of the sidebar"
     </div>
   )
