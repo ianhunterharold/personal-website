@@ -11,7 +11,7 @@ class ProfilePage extends Component{
 
     return(
       <div>
-  <Grid  relaxed columns={3} divided>
+  <Grid  columns={3} divided padded>
 
 
   <Grid.Row centered>
