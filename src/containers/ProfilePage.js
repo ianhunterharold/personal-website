@@ -15,8 +15,9 @@ class ProfilePage extends Component{
     <Grid.Row centered>
       <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded='horizonally'>
         <Segment>
-          power statement
-        <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+        Full stack software developer, and ardent applied learner. JavaScript, React and
+        React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SAAS roles. An amazing combination of sales interpersonal skills with technical know how.
+        
         </Segment>
 
         <Grid.Row colums={3}>
@@ -43,7 +44,7 @@ class ProfilePage extends Component{
       </Grid.Column>
     
       <Grid.Column color={'black'} key={'black'} padded='vertically'>
-        <Image src='https://i.imgur.com/sbGJcdW.jpg' />
+        <Image src='https://i.imgur.com/sbGJcdW.jpg' size='medium' circular centered />
       
       
       </Grid.Column>
