@@ -1,8 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
-import Main from './Main.js';
 import SideBar from '../components/SideBar.js';
-import { Grid,Image,Segment,Header,Button } from 'semantic-ui-react';
+import { Grid,Image,Segment,Header,Button,Divider,Icon,List } from 'semantic-ui-react';
 import cocoLocoPicture from '../images/cocoLocoPicture.png';
 import profilePicture from '../images/profilePicture.jpg';
 
@@ -76,6 +75,8 @@ class ProfilePage extends Component{
     
       <Grid.Column color={'black'} key={'black'} padded='vertically'>
         <Image src={profilePicture} size='medium' circular centered />
+        <br/>
+        <br/>
         Life long learner, JavaScript and React artificer and aspiring polyglot.
         <br/>
         <br/>
@@ -83,6 +84,45 @@ class ProfilePage extends Component{
         <br/>
         <br/>
         Chaco Tan line enthusiast. 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Divider/>
+       
+        <List  horizontal>
+    <List.Item as='github'>
+      <Icon name='github' name='github' size='big'
+      onClick={()=>window.open("https://github.com/ianhunterharold")}
+      />
+    </List.Item>
+    <List.Item as='linkedin'>
+      <Icon name='linkedin square'name='linkedin' size='big'
+      onClick={()=> window.open("https://www.linkedin.com/in/ianhunterharold/")}/>
+      
+    </List.Item>
+    <List.Item as='mail'>
+    <Icon name='mail' name='mail' size='big' onClick={()=> window.open("mailto:ianhunterharold@gmail.com")}/>
+    </List.Item>
+  </List>
+
+       
+        
+        
+        
+        
+       
+
+        
       </Grid.Column>
     </Grid.Row>
 
