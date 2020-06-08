@@ -37,7 +37,7 @@ class ProfilePage extends Component{
           <Image
             src={cocoLocoPicture}
       
-          size='medium' rounded>
+          size='small' rounded>
 
           </Image>
           </Button>
@@ -46,9 +46,22 @@ class ProfilePage extends Component{
       
           </Grid.Column>
           <Grid.Column>
+        
         <Segment>
-          pjr2
-        </Segment>
+          <Header as='h3' attached='top'>
+          Zall Wall 
+          </Header>
+          <Button onClick={()=> window.open("https://github.com/ianhunterharold/zall_wall_frontend") }>
+          <Image
+            src={cocoLocoPicture}
+      
+          size='small' rounded>
+
+          </Image>
+          </Button>
+            Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and playstore. Harnesses the power of React Native, async local storage, and xcode for complete accessibility on every mobile device. 
+          </Segment>
+      
           </Grid.Column>
           <Grid.Column>
         <Segment>
@@ -63,8 +76,13 @@ class ProfilePage extends Component{
     
       <Grid.Column color={'black'} key={'black'} padded='vertically'>
         <Image src={profilePicture} size='medium' circular centered />
-      
-      
+        Life long learner, JavaScript and React artificer and aspiring polyglot.
+        <br/>
+        <br/>
+        When I'm not working in a repository, I'm camping and rock climbing with my <a href="https://www.instagram.com/mirasol_sunflower/?hl=en" target='blank'>fur baby</a>.
+        <br/>
+        <br/>
+        Chaco Tan line enthusiast. 
       </Grid.Column>
     </Grid.Row>
 
