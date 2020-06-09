@@ -114,15 +114,6 @@ class ProfilePage extends Component{
     <Icon name='mail' name='mail' size='big' onClick={()=> window.open("mailto:ianhunterharold@gmail.com")}/>
     </List.Item>
   </List>
-
-       
-        
-        
-        
-        
-       
-
-        
       </Grid.Column>
     </Grid.Row>
 
