@@ -1,12 +1,12 @@
 import React from 'react';
 import { Component } from 'react';
-import SideBar from '../components/SideBar.js';
 import { Grid,Image,Segment,Header,Button,Divider,Icon,List } from 'semantic-ui-react';
 import cocoLocoPicture from '../images/cocoLocoPicture.png';
 import profilePicture from '../images/profilePicture.jpg';
 import zallWallPicture from '../images/zallWallPicture.png';
 import chatAppPicture from '../images/chatAppPicture.jpg';
 import dailyTarotParrotPicture from '../images/dailyTarotParrotPicture.png';
+
 class ProfilePage extends Component{
 
 
@@ -20,8 +20,8 @@ class ProfilePage extends Component{
       <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded='horizonally'>
         <Segment>
           <Header size="large">
-            Full stack software developer, and ardent applied learner. JavaScript, React and
-            React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SAAS roles. An amazing combination of sales interpersonal skills with technical know how.
+            <p>Full stack software developer, and ardent applied learner. JavaScript, React and React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SAAS roles. An amazing combination of sales interpersonal skills with technical know how.
+            </p>
           </Header>
         </Segment>
 
@@ -41,7 +41,7 @@ class ProfilePage extends Component{
 
           </Image>
           <p>
-            Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and playstore. Harnesses the power of React Native, async local storage, and xcode for complete accessibility on every mobile device. 
+            Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and playstore. Technologies utilized - React Native, async local storage, and xcode for complete accessibility on every mobile device
           </p>
           </Button>
           
@@ -62,7 +62,7 @@ class ProfilePage extends Component{
 
           </Image>
           <p>
-            Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and playstore. Harnesses the power of React Native, async local storage, and xcode for complete accessibility on every mobile device. 
+            Gamifies the social sphere in the workplace to increase involvement, perceptiveness and interactivity. Users can give each other karma notes, join or leave groups they like or dislike respectively, and share and update their bio section. Technologies utilized - React, Ruby on Rails, postgreSQL,local storage, and JWT auth
           </p>
           </Button>
           
@@ -79,7 +79,7 @@ class ProfilePage extends Component{
             size='tiny' rounded> 
           </Image>
           <p>
-            Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and playstore. Harnesses the power of React Native, async local storage, and xcode for complete accessibility on every mobile device. 
+          Chat App is a topic based live communication tool. Users can join into any existing conversation topic or start their own. Technologies utilized - ActionCable sockets, Bootstrap Styling, React Front End, Ruby on Rails Backend
           </p>
           </Button>
          
@@ -97,7 +97,8 @@ class ProfilePage extends Component{
 
           </Image>
           <p>
-            Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and playstore. Harnesses the power of React Native, async local storage, and xcode for complete accessibility on every mobile device. 
+            Users can get their daily tarot card reading by downloading the app, asking a question and seeing what the answer to their question holds. 
+            Technologies utilized - React Native and xcode 
           </p>
           </Button>
          
@@ -113,32 +114,39 @@ class ProfilePage extends Component{
 
       </Grid.Column>
     
-      <Grid.Column color={'black'} key={'black'} padded='vertically'>
+      <Grid.Column color={'black'} key={'black'} textAlign="center" padded='vertically'>
         <Image src={profilePicture} size='medium' circular centered />
         <br/>
         <br/>
+        
+          <Header as='h4' inverted color='grey'>
+          <p className='profile-section'>
         Life long learner, JavaScript and React artificer and aspiring polyglot.
+        </p>
+        </Header>
+      
         <br/>
         <br/>
+        <p className='profile-section'>
+          <Header as='h4' inverted color='grey'>
         When I'm not working in a repository, I'm camping and rock climbing with my <a href="https://www.instagram.com/mirasol_sunflower/?hl=en" target='blank'>fur baby</a>.
+        </Header>
+        </p>
         <br/>
         <br/>
+        <p className='profile-section'>
+          <Header as='h4' inverted color='grey'>
         Chaco Tan line enthusiast. 
+        </Header>
+        </p>
         <br/>
         <br/>
         <br/>
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <br/> 
         <Divider/>
-       
         <List  horizontal>
     <List.Item as='github'>
       <Icon name='github' name='github' size='big'
