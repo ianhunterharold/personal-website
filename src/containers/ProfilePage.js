@@ -7,6 +7,7 @@ import zallWallPicture from '../images/zallWallPicture.png';
 import chatAppPicture from '../images/chatAppPicture.jpg';
 import dailyTarotParrotPicture from '../images/dailyTarotParrotPicture.png';
 
+
 class ProfilePage extends Component{
 
 
@@ -15,9 +16,9 @@ class ProfilePage extends Component{
 
     return(
       <div>
-        <Grid  columns={4} divided padded>
+        <Grid  columns={3} divided padded>
           <Grid.Row centered>
-            <Grid.Column  columns={4} width={11} color={"white"} key={'white'} padded>
+            <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded>
               {/* <Segment> */}
                 <Header size="large">
                   <p>
@@ -29,16 +30,13 @@ class ProfilePage extends Component{
                     <br/>
                   </p>
                 </Header>
-            {/* <Grid relaxed='very'> */}
-
-            <Grid.Row columns={3} >
-            {/* <Grid.Column> */}
-            <Header as='h3'>Projects</Header>
-            <Card.Group >
-
             
 
-                <Card
+            <Grid.Row columns={2} padded >
+           
+            <Header as='h3' style ={{textDecoration:'underline'}}>Projects</Header>
+            <Card.Group style={{justifyContent: 'center'}}>
+                <Card style={{margin: '30px'}}
                     href='https://apps.apple.com/tt/app/coco-loco-harvest-coconuts/id1495832332?ign-mpt=uo%3D2'
                     target='blank'
                   >
@@ -50,10 +48,10 @@ class ProfilePage extends Component{
                       </Card.Description>
                     </Card.Content>
                 </Card>
-            {/* </Grid.Column> */}
-            {/* <Grid.Column>           */}
+        
 
-                <Card
+                <Card 
+                  style={{margin: '30px'}}
                   href='https://github.com/ianhunterharold/zall_wall_frontend'
                   target='blank'
                 >
@@ -67,6 +65,7 @@ class ProfilePage extends Component{
               </Card>
 
               <Card
+                style={{margin: '30px'}}
                 href='https://github.com/kel29/chat-frontend'
                 target='blank'
               >
@@ -80,6 +79,7 @@ class ProfilePage extends Component{
               </Card>
 
               <Card
+                style={{margin: '30px'}}
                 href='https://github.com/ianhunterharold/daily_parrot_tarot'
                 target='blank'
               >
@@ -100,7 +100,7 @@ class ProfilePage extends Component{
           </Grid.Column>
           
                       
-          <Grid.Column color={'black'} key={'black'} textAlign="center" padded width={5} >
+          <Grid.Column color={'black'} key={'black'} textAlign="center" padded width={6} >
           
               <Image src={profilePicture} size='medium' circular centered />
               <br/>
@@ -115,7 +115,7 @@ class ProfilePage extends Component{
               <p className='profile-section'>
                 <Header as='h4' inverted color='grey'>
                   When I'm not working in a repository, I'm camping and rock climbing with my 
-                  <a href="https://www.instagram.com/mirasol_sunflower/?hl=en" target='blank'>fur baby</a>.
+                  <a href="https://www.instagram.com/mirasol_sunflower/?hl=en" target='blank'> fur baby</a>.
                 </Header>
               </p>
               <br/>
