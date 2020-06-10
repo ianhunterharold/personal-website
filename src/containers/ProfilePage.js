@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import { Grid,Image,Segment,Header,Button,Divider,Icon,List,Card } from 'semantic-ui-react';
+import { Grid,Image,Header,Divider,Icon,List,Card } from 'semantic-ui-react';
 import cocoLocoPicture from '../images/cocoLocoPicture.png';
 import profilePicture from '../images/profilePicture.jpg';
 import zallWallPicture from '../images/zallWallPicture.png';
