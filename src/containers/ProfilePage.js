@@ -15,9 +15,9 @@ class ProfilePage extends Component{
 
     return(
       <div>
-        <Grid  columns={3} divided padded>
+        <Grid  columns={4} divided padded>
           <Grid.Row centered>
-            <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded>
+            <Grid.Column  columns={4} width={11} color={"white"} key={'white'} padded>
               {/* <Segment> */}
                 <Header size="large">
                   <p>
@@ -25,26 +25,33 @@ class ProfilePage extends Component{
                     <br/>
                     <br/>
                     Full stack software developer, and ardent applied learner. JavaScript, React and React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SAAS roles. An amazing combination of sales interpersonal skills with technical know how.
+                    <br/>
+                    <br/>
                   </p>
                 </Header>
-          
-            <Grid.Row columns={3}>
-            <Grid.Column>
+            {/* <Grid relaxed='very'> */}
+
+            <Grid.Row columns={3} >
+            {/* <Grid.Column> */}
+            <Header as='h3'>Projects</Header>
+            <Card.Group >
+
+            
 
                 <Card
                     href='https://apps.apple.com/tt/app/coco-loco-harvest-coconuts/id1495832332?ign-mpt=uo%3D2'
                     target='blank'
                   >
-                    <Image src={cocoLocoPicture} size='medium' centered />
-                    <Card.Content>
+                    <Image src={cocoLocoPicture} size='small' centered/>
+                    <Card.Content >
                       <Card.Header>Coco Loco - Harvest Coconuts</Card.Header>
                       <Card.Description>
                         Interactive gaming experience targeted at ages 4+ to pass the time. Collect coconuts, increase your count and relax in paradise! Globablly available on iOS and Play Store. 
                       </Card.Description>
                     </Card.Content>
                 </Card>
-            </Grid.Column>
-            <Grid.Column>          
+            {/* </Grid.Column> */}
+            {/* <Grid.Column>           */}
 
                 <Card
                   href='https://github.com/ianhunterharold/zall_wall_frontend'
@@ -63,7 +70,7 @@ class ProfilePage extends Component{
                 href='https://github.com/kel29/chat-frontend'
                 target='blank'
               >
-                <Image src={chatAppPicture} size='medium' centered />
+                <Image src={chatAppPicture} size='small' centered />
                 <Card.Content>
                   <Card.Header>Live Chat App</Card.Header>
                   <Card.Description>
@@ -76,7 +83,7 @@ class ProfilePage extends Component{
                 href='https://github.com/ianhunterharold/daily_parrot_tarot'
                 target='blank'
               >
-                <Image src={dailyTarotParrotPicture} size='medium' centered />
+                <Image src={dailyTarotParrotPicture} size='small' centered />
                 <Card.Content>
                   <Card.Header>Daily Tarot Parrot Reading</Card.Header>
                   <Card.Description>
@@ -85,11 +92,16 @@ class ProfilePage extends Component{
                 </Card.Content>
               </Card>
 
-              </Grid.Column>
+          
+
+              </Card.Group>
+
           </Grid.Row>
           </Grid.Column>
+          
                       
-          <Grid.Column color={'black'} key={'black'} textAlign="center" padded='vertically'>
+          <Grid.Column color={'black'} key={'black'} textAlign="center" padded width={5} >
+          
               <Image src={profilePicture} size='medium' circular centered />
               <br/>
               <br/>
