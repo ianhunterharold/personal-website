@@ -21,7 +21,7 @@ class ProfilePage extends Component{
             <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded>
               {/* <Segment> */}
                 <Header size="large">
-                  <p>
+                  <p >
                     Howdy, I'm Ian Hunter Harold
                     <br/>
                     <br/>
