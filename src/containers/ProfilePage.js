@@ -107,14 +107,14 @@ class ProfilePage extends Component{
               <br/>
               <br/>
               <Header as='h4' inverted color='grey'>
-                <p className='profile-section'>
+                <p className='profile-section' style={{padding: 5}}>
                 Life long learner, JavaScript and React artificer and aspiring polyglot.
                 </p>
               </Header>
               <br/>
               <br/>
               <p className='profile-section'>
-                <Header as='h4' inverted color='grey'>
+                <Header as='h4' inverted color='grey' style={{padding: 5}}>
                   When I'm not working in a repository, I'm camping and rock climbing with my 
                   <a href="https://www.instagram.com/mirasol_sunflower/?hl=en" target='blank'> fur baby</a>.
                 </Header>
@@ -122,7 +122,7 @@ class ProfilePage extends Component{
               <br/>
               <br/>
               <p className='profile-section'>
-                <Header as='h4' inverted color='grey'>
+                <Header as='h4' inverted color='grey' style={{padding: 5}}>
                   Chaco Tan line enthusiast. 
                 </Header>
               </p>
