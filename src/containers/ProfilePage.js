@@ -20,8 +20,9 @@ class ProfilePage extends Component{
           <Grid.Row centered>
             <Grid.Column  columns={2} width={10} color={"white"} key={'white'} padded>
               {/* <Segment> */}
-                <Header size="large">
+                <Header size="large" style={{padding: 12}}>
                   <p>
+                 
                     Howdy, I'm Ian Hunter Harold
                     <br/>
                     <br/>
