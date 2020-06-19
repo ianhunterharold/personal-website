@@ -26,7 +26,7 @@ class ProfilePage extends Component{
                     Howdy, I'm Ian Hunter Harold
                     <br/>
                     <br/>
-                    Full stack software developer, and ardent applied learner. JavaScript, React and React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SAAS roles. An amazing combination of sales interpersonal skills with technical know how.
+                    Full stack software developer, and ardent applied learner. JavaScript, React and React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SaaS roles. An amazing combination of sales interpersonal skills with technical know how.
                     <br/>
                     <br/>
                   </p>
