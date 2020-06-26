@@ -23,7 +23,7 @@ class ProfilePage extends Component{
                 <Header size="large" style={{padding: 12}}>
                   <p>
                  
-                    Howdy, I'm Ian Hunter Harold
+                    Greetings, I'm Ian Hunter Harold
                     <br/>
                     <br/>
                     Full stack software developer, and ardent applied learner. JavaScript, React and React Native obsessed with the ability to learn novel technologies. Proven track record driving revenue through various SaaS roles. An amazing combination of sales interpersonal skills with technical know how.
